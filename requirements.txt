@@ -1,7 +1,10 @@
-tensorflow==2.0.0-rc1
 numpy
 matplotlib
 opencv-python
 pillow
 scikit-image
 scipy
+cv2
+flask
+tensorflow
+python-dotenv
