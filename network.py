@@ -118,7 +118,7 @@ def train(checkpoint, runtime_generate=False):
 
         feed = {lprnet.inputs: train_inputs, lprnet.targets: train_targets}
 
-        loss, steps, _, lr = sess.w( \
+        loss, steps, _, lr = sess.run( \
             [lprnet.loss, lprnet.global_step, lprnet.optimizer, lprnet.learning_rate], feed)
 
         if steps > 0 and steps % SAVE_STEPS == 0:
