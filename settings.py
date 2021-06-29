@@ -5,7 +5,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 FONT_HEIGHT = 36
 
-IMG_SIZE = [100, 60]
+IMG_SIZE = [94, 24]
 
 DIGITS = "0123456789"
 
